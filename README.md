@@ -12,7 +12,7 @@ The **BGR (Blue, Green, Red)** color model is commonly used in OpenCV instead of
 
 Grayscale: Represents an image with intensity values ranging from black (0) to white (255), reducing computational complexity.
 
-HSV (Hue, Saturation, Value): A more perceptually intuitive model where:
+**HSV (Hue, Saturation, Value)**: A more perceptually intuitive model where:
 
 **Hue (H)**: Represents color type (0°-360° but scaled to 0-180 in OpenCV for 8-bit images).
 
