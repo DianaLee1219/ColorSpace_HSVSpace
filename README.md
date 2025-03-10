@@ -1,11 +1,11 @@
 # Color Space Conversion: BGR to Grayscale and HSV
 
-##Introduction
+## Introduction
 
 In this assignment, we implemented functions to convert an image from the BGR color space to both Grayscale and HSV formats. Color space conversion is a crucial process in computer vision, 
 enabling different representations of an image for various applications like object detection, segmentation, and color-based filtering.
 
-##Theory of Color Spaces
+## Theory of Color Spaces
 
 A color space is a specific organization of colors, allowing consistent representation and reproduction across different devices. 
 The **BGR (Blue, Green, Red)** color model is commonly used in OpenCV instead of the more familiar RGB order. Two other essential color representations are **Grayscale** and **HSV (Hue, Saturation, Value)**:
@@ -20,7 +20,7 @@ HSV (Hue, Saturation, Value): A more perceptually intuitive model where:
 
 **Value (V)**: Represents brightness, with 0 being black and 255 being the brightest.
 
-##Conversion Equations
+## Conversion Equations
 
 1. BGR to Grayscale
 
@@ -49,11 +49,11 @@ If H < 0, then H = H + 360.
 Scaling for 8-bit images: ![image](https://github.com/user-attachments/assets/6c89ed95-9704-49c7-affc-b021926a96f1)
 
 
-##Implementation & Results
+## Implementation & Results
 
 We implemented the function convertBGRtoHSV(image) in Python using NumPy. The function iterates through each pixel, applies the conversion formulae, and returns the HSV image. The results were compared with OpenCV’s built-in cv2.cvtColor(image, cv2.COLOR_BGR2HSV), showing minimal difference, validating the correctness of our implementation. The function was then tested using Matplotlib to visualize the original and converted images.
 
-##Conclusion
+## Conclusion
 
 This assignment provided hands-on experience in implementing color space transformations, reinforcing the theoretical knowledge behind image processing. The correct implementation of these conversions is crucial for various computer vision applications, enabling better feature extraction and analysis in tasks such as object recognition and segmentation.
 
