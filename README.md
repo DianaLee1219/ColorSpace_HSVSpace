@@ -10,7 +10,7 @@ enabling different representations of an image for various applications like obj
 A color space is a specific organization of colors, allowing consistent representation and reproduction across different devices. 
 The **BGR (Blue, Green, Red)** color model is commonly used in OpenCV instead of the more familiar RGB order. Two other essential color representations are **Grayscale** and **HSV (Hue, Saturation, Value)**:
 
-Grayscale: Represents an image with intensity values ranging from black (0) to white (255), reducing computational complexity.
+**Grayscale**: Represents an image with intensity values ranging from black (0) to white (255), reducing computational complexity.
 
 **HSV (Hue, Saturation, Value)**: A more perceptually intuitive model where:
 
@@ -53,10 +53,11 @@ Scaling for 8-bit images: ![image](https://github.com/user-attachments/assets/6c
 
 We implemented the function convertBGRtoHSV(image) in Python using NumPy. The function iterates through each pixel, applies the conversion formulae, and returns the HSV image. The results were compared with OpenCV’s built-in cv2.cvtColor(image, cv2.COLOR_BGR2HSV), showing minimal difference, validating the correctness of our implementation. The function was then tested using Matplotlib to visualize the original and converted images.
 
-## Conclusion
-
-This assignment provided hands-on experience in implementing color space transformations, reinforcing the theoretical knowledge behind image processing. The correct implementation of these conversions is crucial for various computer vision applications, enabling better feature extraction and analysis in tasks such as object recognition and segmentation.
 
 ![image](https://github.com/user-attachments/assets/0dbba96b-3b7c-4f0a-8557-3262e3812d85)
 
 ![image](https://github.com/user-attachments/assets/29740efc-e2f6-46f2-ba85-cd559e5dcb4c)
+
+## Conclusion
+
+This assignment provided hands-on experience in implementing color space transformations, reinforcing the theoretical knowledge behind image processing. The correct implementation of these conversions is crucial for various computer vision applications, enabling better feature extraction and analysis in tasks such as object recognition and segmentation.
