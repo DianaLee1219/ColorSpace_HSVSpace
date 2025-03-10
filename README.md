@@ -1,5 +1,4 @@
-# ColorSpace_HSVSpace
-Color Space Conversion: BGR to Grayscale and HSV
+# Color Space Conversion: BGR to Grayscale and HSV
 
 Introduction
 
